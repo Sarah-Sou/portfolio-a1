@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Me</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 600px) and (max-width: 1024px)" />
+  <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 599px)" />
+</head>
+<body>
+  <header>
+    <h1>Contact Me</h1>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Get in Touch</h2>
+      <form action="#" method="post">
+        <!-- Name -->
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <!-- Email -->
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <!-- Cell No (10 digits only) -->
+        <label for="cell">Cell No:</label><br />
+        <input type="tel" id="cell" name="cell"
+               pattern="[0-9]{10}" placeholder="6476778658" required /><br /><br />
+
+        <!-- Comments -->
+        <label for="comments">Comments:</label><br />
+        <textarea id="comments" name="comments" rows="4" required></textarea><br /><br />
+
+        <!-- Submit -->
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sarah Soueidan |
+      <a href="mailto:sarah.soueidan@ontariotechu.net">sarah.soueidan@ontariotechu.net</a> |
+      Phone: 647-677-8658
+    </p>
+  </footer
+  
+</body>
+</html>
